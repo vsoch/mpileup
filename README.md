@@ -1,7 +1,7 @@
 # mpileup
 
 This is a Docker container to run the [parse_pileup_query.pl](parse_pileup_query.pl)
-script.  You can connect this repository to Docker Hub as an automated build
+script.  You can connect this repository to [Docker Hub](https://hub.docker.com/r/vanessa/mpileup/) as an automated build
 so that the container builds automatically when you commit.
 
 ## Build
@@ -11,6 +11,8 @@ To build the container locally:
 ```bash
 docker build -t vanessa/mpileup .
 ```
+
+You can also use the one built from this repo on Dockerhub, [vanessa/mpileup](https://hub.docker.com/r/vanessa/mpileup/).
 
 ## Usage
 
